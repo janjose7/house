@@ -1,0 +1,85 @@
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+        *{
+            font-family: 'Poppins', sans-serif;
+            color:#616161;
+        }
+        .todo-carta{
+            max-width:600px;
+            width:100%;
+            margin: 0 auto;
+            display: block;
+            line-height:21px;
+            font-size:14px;
+        }
+        .todo-carta a{
+            text-decoration: none;
+            color: #1565c0;
+        }
+        .logo0{
+            padding-left: 40px;
+            text-decoration:none;
+            border-bottom:5px solid transparent;
+            border-top:5px solid transparent;
+            display:inline-block
+        }
+        .logo1{
+            color:chartreuse;
+        }
+        .carta{
+            margin: 0 auto;
+            padding-top: 0;
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-bottom: 15px;
+            text-align: justify;
+        }
+        .resal{
+            font-weight: bold;
+        }
+        .sub-list{
+            font-weight: bold;
+        }
+        .pie{
+            padding-top: 20px;
+            padding-bottom: 0;
+            padding-left: 40px;
+            padding-right: 40px;
+            text-decoration: none !important;
+        }
+        .pie-carta{
+            text-align: center;
+            font-size: 11px;
+            line-height:4px;
+        }
+        .pie-carta a{
+            text-decoration: none;
+            color: #1565c0;
+        }
+    </style>
+</head>
+<body>
+    <div class='todo-carta'>
+        <h1 class='logo0'>Ayu<span class='logo1'>da</span></h1>
+        <div class='carta'>
+            <p><span class='resal'>Asunto</span>: %asunto%</p>
+            <p><span class='resal'>Contenido</span>: %contenido%.</p>
+            <br>
+            <h3>Datos del Usuario:</h3>
+            <ul>
+                <li><span class="sub-list">Nombre</span>: %nombre%</li>
+                <li><span class="sub-list">Correo</span>: <a href='#' data-saferedirecturl='#' target='_blank'>%correo%</a></li>
+                <li><span class="sub-list">Hora</span>: %hora%</li>
+            </ul>
+            <div class='pie'>
+                <p class='pie-carta'>OxeRev © 2022 | Guatire</p>
+                <p class='pie-carta'><a href='#' data-saferedirecturl='#' target='_blank'>@Oxerev</a></p>
+                <p class='pie-carta'>Todos los derechos reservados</p>
+            </div>
+        </div>
+    </div>
+</body>

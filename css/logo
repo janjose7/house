@@ -1,0 +1,9 @@
+logo blanco <i class="icon-logo_blanco-PhotoRoom"></i>html entity &#xe901;
+css .icon-logo_blanco-PhotoRoom:before {
+    content: "\e901";
+}
+
+logo negro <i class="icon-business-PhotoRoom"></i>html entity &#xe902;
+css .icon-business-PhotoRoom:before {
+    content: "\e902";
+}

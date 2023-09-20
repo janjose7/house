@@ -1,0 +1,51 @@
+.color_menu {
+    background-color: #84BD00;
+    /* background-image: linear-gradient(180deg, #84BD00 10%, #00A3E0 100%); */
+    background: rgb(132,189,0);
+    background: -moz-linear-gradient(29deg, rgba(132,189,0,1) 0%, rgba(0,163,224,1) 75%);
+    background: -webkit-linear-gradient(29deg, rgba(132,189,0,1) 0%, rgba(0,163,224,1) 75%);
+    background: linear-gradient(29deg, rgba(132,189,0,1) 0%, rgba(0,163,224,1) 75%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#84bd00",endColorstr="#00a3e0",GradientType=1);
+    background-size: cover
+}
+
+.btn-successm {
+    color: #fff;
+    background-color: #1cc88a;
+    border-color: #1cc88a
+}
+
+.btn-successm:hover {
+    color: #fff;
+    background-color: #17a673;
+    border-color: #169b6b
+}
+
+.btn-successm.focus,
+.btn-successm:focus {
+    color: #fff;
+    background-color: #17a673;
+    border-color: #169b6b;
+    box-shadow: 0 0 0 .2rem rgba(62, 208, 156, .5)
+}
+
+.btn-successm.disabled,
+.btn-successm:disabled {
+    color: #fff;
+    background-color: #1cc88a;
+    border-color: #1cc88a
+}
+
+.btn-successm:not(:disabled):not(.disabled).active,
+.btn-successm:not(:disabled):not(.disabled):active,
+.show>.btn-successm.dropdown-toggle {
+    color: #fff;
+    background-color: #169b6b;
+    border-color: #149063
+}
+
+.btn-successm:not(:disabled):not(.disabled).active:focus,
+.btn-successm:not(:disabled):not(.disabled):active:focus,
+.show>.btn-successm.dropdown-toggle:focus {
+    box-shadow: 0 0 0 .2rem rgba(62, 208, 156, .5)
+}

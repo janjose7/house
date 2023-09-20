@@ -1,0 +1,11 @@
+.copy-link {
+    --height: 36px;
+    display: flex;
+    /*max-width: 250px;*/
+}
+.copy-link-input:hover {
+    background: #b7fdc3;
+}
+.copy-link-button:hover {
+    background: #129427;
+}

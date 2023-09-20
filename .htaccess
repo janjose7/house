@@ -1,0 +1,12 @@
+Options All -Indexes
+
+RewriteEngine On
+
+RewriteRule ^([-a-zA-Z0-9]+)$ index.php?ruta=$1
+
+ErrorDocument 400 http://localhost/oxeR/error/400.php
+ErrorDocument 401 http://localhost/oxeR/error/401.php
+ErrorDocument 403 http://localhost/oxeR/error/403.php
+ErrorDocument 404 http://localhost/oxeR/error/404.php
+ErrorDocument 500 http://localhost/oxeR/error/500.php
+ErrorDocument 502 http://localhost/oxeR/error/502.php
